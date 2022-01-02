@@ -1,0 +1,131 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+body{
+  
+    margin: 0%;
+
+}
+.logo img {
+    max-width: 80px;
+    height: auto;
+    padding: 20px 10px;
+  }
+  h1{
+      text-align: center;
+      color:wheat;
+      padding: 5px;
+  }
+  a{
+      text-decoration: none;
+      font-size: 2rem;
+      color: cornsilk;
+      font-family: 'Architects Daughter', cursive;
+      padding: 5px 10px;
+      background-color: blue;
+      border-radius: 10px;
+      margin: 7px 5px;
+      
+     
+
+  }
+  [class*="col-"]{
+    float: left;
+    padding: 10px;
+
+    }
+
+    /*for mobile*/ 
+[class*="col-"]{
+    width: 100%;
+ 
+  }
+  .nevbar{
+      background-color: rgb(66, 66, 63);
+      text-align: center;
+  }
+  .nevmenu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.nevmenu a:hover{
+   background-color:  violet;
+}
+  .nevbar::after{
+      clear: both;
+      display: table;
+      content: '';
+  }
+ .profile  img{
+     width: 100px;
+     height: auto;
+    
+ }
+ .profile{
+     text-align: center;
+    
+    background-color: chocolate;
+ }
+ .profile .icon{
+     position: absolute;
+     right: 80px;
+     transition: transform 2s;
+    }
+    .profile .profile-dt h1{
+        color: rgb(0, 0, 0);
+        padding: 100px;
+        font-family: 'Source Code Pro', monospace;
+       
+    }
+    .profile .icon:hover{
+       
+        transform: rotate(360deg);
+
+    }
+    .profile ::after{
+        clear: both;
+        content: '';
+        display: table;
+
+    }
+  .me{
+      background-color: cadetblue;
+      padding: 20px;
+      text-align: center;
+      color: white;
+  }
+  .photo img{
+      border: white 5px solid;
+      border-radius: 50%;
+      height: 200px;
+      width: 190px;
+
+   
+  }
+  .hr1{
+      border: dotted 5px white;
+      border-bottom: none;
+      
+     
+  }
+  . hr{
+    border: dotted 5px white;
+    border-bottom: none;
+    
+   
+}
+.cv{
+    background-color: blue;
+    color: rgb(243, 14, 14);
+    size: 10px 5px;
+    border: none;
+    padding: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+  
